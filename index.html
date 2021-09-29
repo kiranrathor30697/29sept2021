@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .comman{
+                display:inline-block;
+                width: 180px;
+                height: 180px;
+                animation-name:bouncing;
+                animation-duration:10s;
+                animation-timing-function:linear;
+            }
+            @keyframes bouncing{
+                0%{
+                    transform:rotateZ(0deg)
+                }
+                100%{
+                    transform: rotateZ(360deg);
+                }
+            }
+            .Purple{
+                background-color: Purple;
+            }
+            .DarkViolet{
+                background-color: DarkViolet;
+            }
+            .blue{
+                background-color: blue;
+            }
+            .green{
+                background-color: green;
+            }
+            .yellow{
+                background-color: yellow;
+            }
+            .orange{
+                background-color: orange;
+            }
+            .red{
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+      <div class="comman Purple"></div> 
+      <div class="comman DarkViolet"></div>
+      <div class="comman blue"></div>
+      <div class="comman green"></div>
+      <div class="comman yellow"></div>
+      <div class="comman orange"></div> 
+      <div class="comman red"></div>
+    </body>
+</html>
